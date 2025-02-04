@@ -5,5 +5,5 @@ whatis("Keywords:    application, statistics")
 whatis("URL:         https://www.stata.com/why-use-stata")
 whatis("Description: Integrated statistical software package for data analysis, data management, and graphics.")
 
-prepend_path("PATH","/share/sw/restricted/stata/17/stata-se")
-
+prepend_path("PATH","/share/sw/restricted/stata/17/stata")
+set_alias("stata", "/share/sw/restricted/stata/17/stata-se")
